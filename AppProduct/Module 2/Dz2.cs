@@ -111,7 +111,7 @@ namespace AppProduct.Module_2.Dz2.cs
 
     class Program
     {
-        static void Main()
+        static void Main1()
         {
             var config = new AppConfig("Server=myServer;Database=myDb;User Id=myUser;Password=myPass;");
             var logger = new Logger();
