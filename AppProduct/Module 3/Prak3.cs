@@ -204,7 +204,7 @@ namespace AppProduct.Module_3
 
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             var prodA = new Product("T-shirt", 20m);
             var prodB = new Product("Mug", 7.5m);

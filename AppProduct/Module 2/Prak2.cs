@@ -61,7 +61,7 @@ namespace AppProduct.Module_2
 
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             var mgr = new UserManager();
 

@@ -133,7 +133,7 @@ namespace AppProduct.Module_1
 
     class Program2
     {
-        static void Main2()
+        static void Main()
         {
             IBookRepo bookRepo = new InMemoryBookRepo();
             IReaderRepo readerRepo = new InMemoryReaderRepo();

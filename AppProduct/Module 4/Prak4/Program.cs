@@ -6,7 +6,7 @@ namespace Lab.Documents
 {
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             var creators = new Dictionary<string, DocumentCreator>
             {

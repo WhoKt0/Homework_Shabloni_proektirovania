@@ -77,7 +77,7 @@ namespace SingleFileAll
 
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
 

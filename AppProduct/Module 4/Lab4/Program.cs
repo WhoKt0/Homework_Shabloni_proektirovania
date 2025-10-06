@@ -7,7 +7,7 @@ namespace Lab.Transport
 {
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             var factories = new Dictionary<string, TransportFactory>
             {

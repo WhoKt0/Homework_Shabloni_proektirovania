@@ -227,7 +227,7 @@ namespace AppProduct.Module_3.Dz3.cs
 
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             var discounts = new IDiscountRule[] { new PercentOffRule(0.1m), new FixedAmountRule(5m) };
             var calculator = new SimpleOrderCalculator(discounts);

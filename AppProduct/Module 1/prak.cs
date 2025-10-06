@@ -115,7 +115,7 @@ namespace AppProduct.Module_1
 
     class Program3
     {
-        static void Main3()
+        static void Main()
         {
             IGarageRepo repo = new InMemoryGarageRepo();
             IFleetService fleet = new FleetService(repo);

@@ -134,7 +134,7 @@ namespace AppProduct.Module_3.Lab3.cs
 
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             var invoice = new Invoice(id: 1, taxRate: 0.10m);
             invoice.Items.Add(new Item("Widget A", 100m));

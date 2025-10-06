@@ -121,7 +121,7 @@ namespace AppProduct.Module_1
 
     class Program
     {
-        static void Main1()
+        static void Main()
         {
             IEmployeeRepository repo = new InMemoryEmployeeRepository();
             var system = new EmployeeSystem(repo);
